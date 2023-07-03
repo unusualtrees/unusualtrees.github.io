@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Alegreya;
+    src: url("../fonts/Alegreya-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AlegreyaBold;
+    src: url("../fonts/Alegreya-VariableFont_wght.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html,
+body {
+    background-color: #303030;
+    color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Alegreya, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+a {
+    color: white;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.fullscreen-div {
+    width: 100%;
+    height: 100%;
+    background-color: #404040;
+}
+
+.rounded-div {
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+}
+
+img {
+    max-width: 90%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.link-div {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    height: 100%;
+}
+
+.link-div {
+    position: relative;
+    display: inline-block;
+    background-color: #404040;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+
+.div-row {
+    display: flex;
+}
+
+.div-text {
+    font-size: 12pt;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 20px;
+    font-family: AlegreyaBold;
+}
+
+b {
+    font-family: AlegreyaBold;
+}
